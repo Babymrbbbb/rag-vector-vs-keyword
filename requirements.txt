@@ -1,0 +1,5 @@
+# 默认可运行路径：chromadb 自带 ONNX MiniLM，无需 torch / sentence-transformers
+chromadb>=0.5.0
+
+# 可选：接入中文 bge 语义 embedding（替换 retriever_vector.py 的 embedding_function）
+# sentence-transformers>=2.7.0

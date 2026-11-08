@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data / caches
+*.db
+*.sqlite
+.cache/
+chroma/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model cache (chromadb ONNX 模型首次运行下载到此，不入库)
+**/.cache/
+
+# Local scratch files (not published)
+/d[0-9]_*.py
+/d3_*.md
+/queries.txt
+/report_template.md
+/环境搭建_*.md
